@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html> lang="en"
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" Content="Adam Steinshouer">
-        <title>Awesome science application correspondence</title>
-        <style>
-            html {
-                font-size: 16px;
-            }
-            body {
-                max-width: 800px;
-                margin: 0 auto;
-            }
-            .sender-column {
-                text-align: right;
-            }
-            h1 {
-                font-size: 1.5rem;
-            }
-            h2 {
-                font-size: 1.3rem;
-            }
-            p, ul, ol, dl, address {
-                font-size: 1.1rem;
-            }
-            p, li, dd, dt, address {
-                line-height: 1.5;
-            }
-            address {
-                font-style: normal;
-                margin: 1rem 0;
-            }
-        </style>
-    </head>
-    <body>
-    Dr. Eleanor Gaye
+Dr. Eleanor Gaye
 Awesome Science faculty
 University of Awesome
 Bobtown, CA 99999,
@@ -86,11 +49,11 @@ Exotic dance moves
 Yes, you are right! As part of my post-doctorate work, I did study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:
 
 Polynesian chicken dance
-    A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".
+A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".
 Icelandic brownian shuffle
-    Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.
+Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.
 Arctic robot dance
-    An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.
+An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.
 
 For more of my research, see my exotic dance research page.
 
@@ -98,5 +61,3 @@ Yours sincerely,
 Dr Eleanor Gaye
 
 University of Awesome motto: "Be awesome to each other." -- Bill S Preston, Esq
-    </body>
- </Html>
