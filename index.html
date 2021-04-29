@@ -10,19 +10,19 @@
     
 <!-- Add an id attribute with a value of "top" to the opening body tag. -->
     
-    <body><id>top</id>
+    <body id="top">
         
 <!-- PAGE HEADER -->        
         <!-- Wrap the top level heading in a header element -->
         <header>
-           <span><h1>truffaut&nbsp;&nbsp;//&nbsp;&nbsp;portfolio</h1></span>
+          <h1>truffaut&nbsp;&nbsp;//&nbsp;&nbsp;portfolio</h1>
         </header> 
 <!-- NAVIGATION BAR -->        
         <!-- Wrap the unordered list of links in a nav element -->
         <nav>
-        <img class="fit-picture"
-             scr="images/patricia-frost-125-edited-medium.jpg"
-             alt="patricia frost">
+            <img class="fit-picture"
+             src="images/patricia-frost-125-edited-medium.jpg"
+             alt="Patricia Frost">
             <ul>
                     <li><a href="letter-markup">Letter Markup</a></li>
                     <li><a href="planets-table">Planets Table</a></li>
@@ -30,17 +30,17 @@
                     <li><a href="school-site">School Site</a></li>
                     <li><a href="blog">Blog</a></li>
                 </ul>
-            <p></p>
-        </nav>
+            
         <!-- Add the image "patricia-frost-125-edited-medium.jpg" right before the opening <ul> tag of the nav. Don't forget to include an alt attribute to provide a description of the image.-->
                
         
         <!-- Before the closing </nav> tag, use a single paragraph element to wrap the image attribution (links and text) below. -->
-        
+        <p>
                     <a href="https://www.flickr.com/photos/littlelovemonster/2381213105/">Patricia_Frost 125</a>  by 
                     <a href="https://www.flickr.com/photos/littlelovemonster/">Pretty Poo Eater</a> licensed under 
                     <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode">CC BY SA 2.0</a>
-        
+        </p>
+        </nav>
 <!-- MAIN CONTENT AREA -->        
         <main>
         <!-- Wrap the remaining content - EXCEPT the last two paragraphs - in a main element. -->
@@ -91,32 +91,37 @@
             <!-- Create an image bar using an aside element. The aside element should contain two figures.-->
             
                 <!-- FIGURE 1 -->
-                    <figure>
+                    <figure class=fig-1>
     
                     <!-- Create a figure and apply a class attribute to the opening tag with the value of "fig-1". This figure should contain an image and a figcaption. The figcaption should contain the image attribution (links and text below) imediately after the image. -->      
-
-                      <img>  <!-- Add the image "puddle-1-medium.jpg" to the figure. Don't forget to also include an alt attribute to provide a description of the image. -->
+                    <figcaption>
+                      <img class="fit-picture"
+                        src="images/puddle-1-medium.jpg"
+                        alt="Small puddle with refections of trees">  <!-- Add the image "puddle-1-medium.jpg" to the figure. Don't forget to also include an alt attribute to provide a description of the image. -->
                         
-                        <figcaption><!-- Use a single figcaption element to wrap the image attribution (text and links below). -->
+                        <!-- Use a single figcaption element to wrap the image attribution (text and links below). -->
         
                         <a href="https://www.flickr.com/photos/eosmaiajohanna/16418452630/">Puddle</a> by 
                         <a href="https://www.flickr.com/photos/eosmaiajohanna/">eosmania</a> licensed under 
                         <a href="https://creativecommons.org/licenses/by/2.0/legalcode">CC BY 2.0</a>
-                            </figcaption>
+                    </figcaption>
                     </figure>
                 <!-- FIGURE 2 -->
         
                     <!-- Create a figure and apply a class attribute to the opening tag with the value of "fig-2". -->
-                        <figure>
+                        <figure class=fig-2>
                             <figcaption>
                             
                         <!-- Add the image "puddle-2-medium.jpg" to the figure. Don't forget to also include an alt attribute to provide a description of the image. -->
-                            <img>
+                            <img class="fit-picture"
+                        src="images/puddle-2-medium.jpg"
+                        alt="Small puddle in a street with refections of the sky">
                         <!-- Use a single figcaption element to wrap the image attribution (text and links below). --> 
                             
                         <a href="https://www.flickr.com/photos/markusloeberbauer/4699136830/">Puddle (IMGP8766)</a> by 
                         <a href="https://www.flickr.com/photos/markusloeberbauer/">Maarkus Loeberbauer</a> licensed under 
                         <a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode">CC BY SA 2.0</a>
+                        
                             </figcaption>
                         </figure>
                   </aside>
@@ -132,9 +137,9 @@
             <!-- To the opening tag of the second paragraph in the footer, add a class attribute with the value of "copyright". -->   
         
             <!-- Using the text "C.E. Truffaut" create an email hyperlink for the email address "ce.truffaut@cwu.edu". --> 
-        
-            <p>Back to top</p>
-            <p>&copy; 2020 C.E. Truffaut</p>
+            <p><a href="docs/waistcoat-sartorial.pdf")>Here is a link to downoad the waistcoat sartorial</a></p>
+            <p class="return"><a href="#top">Back to top</a></p>
+            <p class="copyright">&copy; <a href="mailto:ce.truffaut@cwu.edu">2020 C.E. Truffaut</a></p>
         </footer>
     </body>
 </html>
